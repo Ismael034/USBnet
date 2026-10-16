@@ -1,0 +1,20 @@
+[project]
+name = "usbnet"
+version = "0.1.0"
+description = "USBnet host tools for the CH32V467 USB tunnel"
+readme = "README.md"
+requires-python = ">=3.9"
+dependencies = [
+    "hidapi>=0.14,<1",
+    "pyusb>=1.3,<2",
+]
+
+[project.scripts]
+usbnet = "usbnet.cli:main"
+
+[build-system]
+requires = ["hatchling>=1.27"]
+build-backend = "hatchling.build"
+
+[tool.hatch.build.targets.wheel]
+packages = ["src/usbnet"]

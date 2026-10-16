@@ -1,0 +1,16 @@
+.venv/
+.uv-cache/
+.run-temp/
+build/
+tests/
+dist/
+dist-*/
+.browser-*/
+browser-*.json
+browser-*.html
+browser-*.stdout
+browser-*.stderr
+firefox-*.moz_log
+firefox-*.stdout
+firefox-*.stderr
+neverssl-test.html

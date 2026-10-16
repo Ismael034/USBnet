@@ -1,0 +1,7 @@
+(fp_lib_table
+	(version 7)
+	(lib (name "lcsc_footprints") (type "KiCad") (uri "${KIPRJMOD}/libs/lcsc/footprints.pretty") (options "") (descr "LCSC imported footprints"))
+	(lib (name "Switch_Keyboard_Cherry_MX") (type "KiCad") (uri "${KICAD10_3RD_PARTY}/footprints/com_github_perigoso_keyswitch-kicad-library/Switch_Keyboard_Cherry_MX.pretty") (options "") (descr ""))
+	(lib (name "com_github_perigoso_keyswitch-kicad-library") (type "KiCad") (uri "${KICAD10_3RD_PARTY}/footprints/com_github_perigoso_keyswitch-kicad-library.pretty") (options "") (descr ""))
+	(lib (name "Switch_Keyboard_Cherry_MX") (type "KiCad") (uri "${KICAD10_3RD_PARTY}/footprints/com_github_perigoso_keyswitch-kicad-library/Switch_Keyboard_Cherry_MX.pretty") (options "") (descr ""))
+)

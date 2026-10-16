@@ -1,0 +1,2 @@
+# Generated STEP models retain exporter whitespace and CRLF line endings.
+hardware/libs/lcsc/3dmodels/*.step whitespace=-blank-at-eol,cr-at-eol

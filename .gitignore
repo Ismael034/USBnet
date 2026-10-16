@@ -1,0 +1,73 @@
+# For PCBs designed using KiCad: https://www.kicad.org/
+# Format documentation: https://kicad.org/help/file-formats/
+
+# macOS
+.DS_Store
+
+# Temporary files
+*.000
+*.bak
+*.bck
+*.kicad_pcb-bak
+*.kicad_sch-bak
+*-backups
+*-cache*
+*-bak
+*-bak*
+*~
+~*
+_autosave-*
+\#auto_saved_files\#
+*.tmp
+*-save.pro
+*-save.kicad_pcb
+fp-info-cache
+~*.lck
+\#auto_saved_files#
+
+# Netlist files (exported from Eeschema)
+*.net
+
+# Autorouter files (exported from Pcbnew)
+*.dsn
+*.ses
+
+# Exported BOM files
+*.xml
+*.csv
+
+# Archived Backups (KiCad 6.0)
+**/*-backups/*.zip
+
+# Local project settings
+*.kicad_prl
+
+# Gerber files
+**/*output/
+
+# meson
+build*/
+
+# MounRiver Studio files
+*.mrs
+obj/
+
+.vscode/
+.idea/
+
+# CH32V467 Make build
+ch32v467/build/
+
+# KiCad local history and per-user project state
+/hardware/.history/
+/hardware/usbnet
+
+# Locally installed cross-compilers and flash tools
+/toolchain/
+
+# Python bytecode
+__pycache__/
+*.pyc
+
+# uv environment
+.venv/
